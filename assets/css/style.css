@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+h4{
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+main{
+    padding: 2em;
+    border: 2px solid whitesmoke;
+    width: fit-content;
+    block-size: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+form {
+    height: 200px;
+    width: 250px;
+   
+}
+#imagen {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#btn-submit{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: black;
+    border-color: whitesmoke;
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}
+
+input{
+    line-height: 20px;
+}
